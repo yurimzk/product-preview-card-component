@@ -47,6 +47,18 @@ body {
     font-family: 'Fraunces', serif;
     font-size: 3.2rem;
     font-weight: 700;
+    line-height: 100%;
 
     margin-top: 1.2rem;
+}
+
+.product-content .description {
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 1.2rem;
+}
+
+.product-price {
+    display: flex;
+    gap: 1.2rem;
 }
