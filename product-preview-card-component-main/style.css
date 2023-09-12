@@ -17,8 +17,8 @@
 }
 
 body {
-    font-size: 1.4rem;
     background-color: var(--primary-cream);
+    font-size: 1.4rem;
 }
 
 #app {
@@ -117,16 +117,17 @@ body {
         display: grid;
         place-content: center;
         height: 100vh;
+        padding: 8.0rem;
     }
 
     #app {
-        display: flex;
-        margin: 0 16.0rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         border-top-right-radius: 1.2rem;
     }
 
     .product-img img {
-        border-bottom-left-radius: 1.2rem;
         border-top-right-radius: 0;
+        border-bottom-left-radius: 1.2rem;
     }
 }
