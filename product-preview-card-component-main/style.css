@@ -111,3 +111,22 @@ body {
 .btn-cart:hover {
     background-color: var(--btn-cart-hover);
 }
+
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        place-content: center;
+        height: 100vh;
+    }
+
+    #app {
+        display: flex;
+        margin: 0 16.0rem;
+        border-top-right-radius: 1.2rem;
+    }
+
+    .product-img img {
+        border-bottom-left-radius: 1.2rem;
+        border-top-right-radius: 0;
+    }
+}
