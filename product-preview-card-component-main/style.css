@@ -70,8 +70,22 @@ body {
 
 .product-price {
     display: flex;
-    gap: 1.2rem;
+    align-items: center;
+    gap: 1.6rem;
     margin-top: 2.4rem;
+}
+
+.promotional-price {
+    font-family: 'Fraunces', serif;
+    color: var(--primary-dark-cyan);
+    font-size: 3.2rem;
+}
+
+.old-price {
+    color: var(--neutral-dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    text-decoration: line-through;
 }
 
 .btn-cart {
