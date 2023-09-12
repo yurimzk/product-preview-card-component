@@ -31,7 +31,7 @@ body {
 }
 
 .product-content {
-    padding: 1.6rem;
+    padding: 2.4rem;
 }
 
 .product-content h2 {
@@ -54,6 +54,9 @@ body {
 
 .product-content .description {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: var(--neutral-dark-grayish-blue);
 
     margin-top: 1.2rem;
 }
@@ -61,4 +64,9 @@ body {
 .product-price {
     display: flex;
     gap: 1.2rem;
+    margin-top: 2.4rem;
+}
+
+.btn-cart {
+    margin-top: 1.6rem;
 }
