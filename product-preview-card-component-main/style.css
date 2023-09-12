@@ -8,6 +8,7 @@
     font-size: 62.5%;
 
     --primary-dark-cyan: hsl(158, 36%, 37%);
+    --btn-cart-hover: hsl(158, 38%, 27%);
     --primary-cream: hsl(30, 38%, 92%);
 
     --neutral-dark-blue: hsl(212, 21%, 14%);
@@ -70,6 +71,7 @@ body {
 .btn-cart {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: .8rem;
 
     background-color: var(--primary-dark-cyan);
@@ -84,4 +86,8 @@ body {
 
     border: none;
     border-radius: .8rem;
+}
+
+.btn-cart:hover {
+    background-color: var(--btn-cart-hover);
 }
